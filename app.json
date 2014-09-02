@@ -1,0 +1,17 @@
+{
+	"reponame":"sample-url-app",
+	"title":"URL/Iframe App",
+	"abbr":"URL App",
+	"tooltip":"[App Designer Ready] A simple app that shows an online web page to be used as it's user interface and navigation.",
+	"description":"[App Designer Ready] A simple app that shows an online web page to be used as it's user interface and navigation.",
+	"articleurl":"TBA",
+    	"screenshotUrl":"",
+    	"iconUrl":"",
+	"highlights":["App Designer", "App Framework"],
+    	"keywords":["App Designer", "App Framework"],
+	"visible": "true",
+	"apppreview":"true",
+	"type":"appdesigner",
+	"appname":"demo.urlapp",
+	"relname":"4.0.0"
+}

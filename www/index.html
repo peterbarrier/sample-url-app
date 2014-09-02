@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!--HTML5 doctype-->
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/index_main.less.css" class="main-less">
+		<title>Your New Application</title>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+		<style type="text/css">
+			/* Prevent copy paste for all elements except text fields */
+			*  { -webkit-user-select:none; -webkit-tap-highlight-color:rgba(255, 255, 255, 0); }
+			input, textarea  { -webkit-user-select:text; }
+		</style>
+		<script src="intelxdk.js"></script>
+		<script src="cordova.js"></script>
+        <script type="text/javascript">
+			function getStyleRuleValue(style, selector, sheet) {
+                var sheets = typeof sheet !== 'undefined' ? [sheet] : document.styleSheets;
+                for (var i = 0, l = sheets.length; i < l; i++) {
+                    var sheet = sheets[i];
+                    if( !sheet.cssRules ) { continue; }
+                    for (var j = 0, k = sheet.cssRules.length; j < k; j++) {
+                        var rule = sheet.cssRules[j];
+                        if (rule.selectorText && rule.selectorText.split(',').indexOf(selector) !== -1) {
+                            return rule.style[style];
+                        }
+                    }
+                }
+                return null;
+            }
+            
+            
+            /*document.addEventListener("deviceready", onDeviceReady, false);
+            function onDeviceReady() {
+                if(device.platform == "iOS"){
+                    //If iOS device, remove upage CSS class from the mainpage to enable scrolling horizontal
+                    document.getElementById('mainpage').className="panel";
+                }
+                else if (device.platform.substr(0, 3) == "Win"){ //Windows phone
+                    //If Windows Phone Device, set the height and width to the device eight and width
+                    document.getElementById("webpage").style.height = window.innerHeight+"px";
+                }
+            }*/
+		</script>
+		<script src="xhr.js"></script>
+        <script src="js/main.js"></script>
+	</head>
+
+	<body id="afui" onload="onDocLoad()">
+
+		<!-- content goes here-->
+		<div class="uwrap" id="content">
+			<div class="upage panel" id="mainpage" data-header="none" data-footer="none">
+				<div class="upage-outer">
+					<div class="upage-content" id="mainsub">
+
+						<div class="grid grid-pad urow uib_row_1 row-height-1" data-uib="layout/row" data-ver="0">
+							<div class="col uib_col_1 col-0_12-12" data-uib="layout/col" data-ver="0">
+								<div class="widget-container content-area vertical-col">
+
+									<div class="widget uib_w_1 d-margins iframe-size" data-uib="media/iframe" data-ver="0">
+										<iframe id="webpage" seamless="seamless" src="https://software.intel.com/en-us/html5/projects"></iframe>
+									</div><span class="uib_shim"></span>
+								</div>
+							</div>
+							<span class="uib_shim"></span>
+						</div>
+					</div>
+					<!-- /upage-content -->
+
+				</div>
+				<!-- /upage-outer -->
+
+			</div>
+			<!-- /upage -->
+
+		</div>
+		<!-- /uwrap -->
+	</body>
+
+</html>
