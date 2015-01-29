@@ -1,44 +1,26 @@
-Touch Drawing with HTML5 Canvas
-=================
-Sketchpad app using html5 canvas to draw using touch or mouse, works on iOS, Android, Window Phone and browser. App uses touch events, MSPointer events and mouse events to support iOS, Android, Window Phone and desktop browser.
+URL App
+============================
+The URL/Iframe app showcases an online web page to be used as it's user interface and navigation.
 
-## index_javascript.html
-Canvas drawing app implemented in javascript only 
-
--
-
-## index_jQuery.html
-Canvas drawing app implemented with jQuery, notice that the _touch_ and _MSPointer_ events use event.originalEvent
-
--
-
-## index_jQueryMobile.html
-Canvas drawing app implemented with jQuery Mobile for UI elements, other code same as index_jQuery.html
-
--
-
-## index_cordova.html
-Canvas drawing app with an additional feature to use device's accelerometer to draw by tilting the device in different direction, code same as index_jQueryMobile.html + Cordova's accelerometer implementation.
-
-Intel(R) XDK
+Intel(R) XDK 
 -------------------------------------------
 This sample is part of the Intel(R) XDK. 
-Download the Intel XDK at http://software.intel.com/en-us/html5.
-To see the technical detail of the sample, please visit the sample article page 
-at http://software.intel.com/en-us/html5/articles/touch-drawing-app-using-html5-canvas. 
+Download the Intel(R) XDK at http://software.intel.com/en-us/html5. To see the technical details of the sample, 
+please visit the sample article page at https://software.intel.com/en-us/html5/articles/html5-hybrid-apps-with-admob-cordova-plugin.
 
 
-Application Files
------------------
-* app.json
-* icon.png
+Important App Files
+---------------------------
 * index.html
-* index_cordova.html
-* index_javascript.html
-* index_jQuery.html
-* readme.md
-* lib/*
+* icon.png
+* screenshot.png
+* app.json
+* README.md
+* js/*
+* css/*
 
+License Information Follows
+---------------------------
 Copyright (c) 2014, Intel Corporation. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, 
@@ -66,9 +48,3 @@ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
 LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT 
 OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-
-jQuery
-----------------------------------------------
-* source:   http://jquery.com/
-* source:   http://jquerymobile.com/
-* license:  http://github.com/jquery/jquery/blob/master/MIT-LICENSE.txt
