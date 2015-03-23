@@ -4,7 +4,7 @@
 	"abbr":"URL App",
 	"tooltip":"[App Designer Ready] A simple app that shows an online web page to be used as it's user interface and navigation. This sample has AdMob Banner and Interstitial ads intergrated using the com.google.admob Apache Cordova* plug-in maintained by admob.",
 	"description":"[App Designer Ready] A simple app that shows an online web page to be used as it's user interface and navigation. This sample has AdMob Banner and Interstitial ads intergrated using the com.google.admob Apache Cordova* plug-in maintained by admob.",
-	"articleurl":"https://software.intel.com/en-us/html5/articles/html5-hybrid-apps-with-admob-cordova-plugin",
+	"articleurl":"https://software.intel.com/en-us/xdk/docs/html5-hybrid-apps-with-admob-cordova-plugin",
     	"screenshotUrl":"",
     	"iconUrl":"",
 	"highlights":["App Designer", "App Framework", "Apache Cordova API", "Ads","Monetize"],
