@@ -5,6 +5,8 @@
   -->
 
     <head>
+        <link rel="stylesheet" type="text/css" href="app_framework/css/af.ui.min.css">
+        <link rel="stylesheet" type="text/css" href="app_framework/css/icons.min.css">
         <meta charset="UTF-8">
         <title>Blank App Designer Cordova Web App Project Template</title>
         <meta http-equiv="Content-type" content="text/html; charset=utf-8">
@@ -69,8 +71,13 @@
         <script src="xdk/init-dev.js"></script>
         <!-- normalizes device and document ready events, see file for details -->
         <script src="js/main.js"></script>
-        
-        
+
+        <!--            
+            You may substitute jQuery for the App Framework selector library.
+            See http://app-framework-software.intel.com/documentation.php#afui/afui_jquery
+        -->
+        <script type="application/javascript" src="app_framework/appframework.js"></script>
+        <script type="application/javascript" src="app_framework/appframework.ui.js"></script>
     </head>
 
     <body id="afui" onload="onDocLoad()">
@@ -82,7 +89,7 @@
             <div class="upage vertical-col left panel" id="mainpage" data-header="none" data-footer="none">
 
                 <div class="widget uib_w_1 d-margins iframe-size" data-uib="media/iframe" data-ver="0">
-                    <iframe src="https://software.intel.com/en-us/html5/projects" seamless="seamless" id="IDZ_iFrame"></iframe>
+                    <iframe seamless="seamless" id="IDZ_iFrame" src="http://www.htmlgoodies.com/html5/index.php"></iframe>
                 </div>
             </div>
         </div>

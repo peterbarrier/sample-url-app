@@ -1,6 +1,8 @@
 Blank HTML App Designer Template for Building Mobile Cordova Web Apps
 =====================================================================
 
+Copyright © 2012-2015, Intel Corporation. All rights reserved.
+
 See [LICENSE.md](<LICENSE.md>) for license terms and conditions.
 
 Use this template as a starting point for an Intel XDK App Designer project that
