@@ -5,8 +5,8 @@
       "type": "App Designer",
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "appDesigner",
-      "projectGuid": "00000000-0000-0000-0000-000000000000",
-      "lastModifiedDate": 1427232255538,
+      "projectGuid": "6f1e07bd-d2e0-48df-89cc-93d8196ff78f",
+      "lastModifiedDate": 1429729004441,
       "creationDate": 1427151473707
     },
     "XDK-app-designer": "true",
@@ -114,14 +114,18 @@
         "isActive_": true,
         "appName_": "URLIFrameApp",
         "appID_": "xdk.intel.blank.ad.template",
-        "appAccess_": [],
+        "appAccess_": [
+          {
+            "origin": "*"
+          }
+        ],
         "icons_": [],
         "splashes_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
         "iosProvs_": [],
         "cordovaCLIVersion_": "4.1.2",
-        "crosswalkVersion_": "10",
+        "crosswalkVersion_": "11",
         "appVersion_": "0.0.1",
         "appAuthor_": "Intel XDK",
         "appDescription_": "Template to develop a Cordova mobile web app using the App Designer UI editor.",
@@ -139,14 +143,18 @@
         "isActive_": true,
         "appName_": "URLIFrameApp",
         "appID_": "xdk.intel.blank.ad.template.crosswalk",
-        "appAccess_": [],
+        "appAccess_": [
+          {
+            "origin": "*"
+          }
+        ],
         "icons_": [],
         "splashes_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
         "iosProvs_": [],
         "cordovaCLIVersion_": "4.1.2",
-        "crosswalkVersion_": "10",
+        "crosswalkVersion_": "11",
         "appVersion_": "0.0.1",
         "appAuthor_": "Intel XDK",
         "appDescription_": "Template to develop a Cordova mobile web app using the App Designer UI editor.",
@@ -163,14 +171,18 @@
         "isActive_": true,
         "appName_": "URLIFrameApp",
         "appID_": "xdk.intel.blank.ad.template",
-        "appAccess_": [],
+        "appAccess_": [
+          {
+            "origin": "*"
+          }
+        ],
         "icons_": [],
         "splashes_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
         "iosProvs_": [],
         "cordovaCLIVersion_": "4.1.2",
-        "crosswalkVersion_": "10",
+        "crosswalkVersion_": "11",
         "appVersion_": "0.0.1",
         "appAuthor_": "Intel XDK",
         "appDescription_": "Template to develop a Cordova mobile web app using the App Designer UI editor."
@@ -186,14 +198,18 @@
         "isActive_": true,
         "appName_": "URLIFrameApp",
         "appID_": "xdk.intel.blank.ad.template",
-        "appAccess_": [],
+        "appAccess_": [
+          {
+            "origin": "*"
+          }
+        ],
         "icons_": [],
         "splashes_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
         "iosProvs_": [],
         "cordovaCLIVersion_": "4.1.2",
-        "crosswalkVersion_": "10",
+        "crosswalkVersion_": "11",
         "appVersion_": "0.0.0.1",
         "appAuthor_": "Intel XDK",
         "appDescription_": "Template to develop a Cordova mobile web app using the App Designer UI editor."
@@ -215,6 +231,7 @@
         "splashes_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
+        "appAuthor_": "Intel XDK",
         "appVersion_": "0.0.1"
       },
       "Firefox": {
@@ -234,6 +251,7 @@
         "splashes_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
+        "appAuthor_": "Intel XDK",
         "appVersion_": "0.0.1"
       },
       "Chrome": {
@@ -253,6 +271,7 @@
         "splashes_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
+        "appAuthor_": "Intel XDK",
         "appVersion_": "0.0.1"
       },
       "Facebook": {
@@ -272,6 +291,7 @@
         "splashes_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
+        "appAuthor_": "Intel XDK",
         "appVersion_": "0.0.1"
       }
     },
