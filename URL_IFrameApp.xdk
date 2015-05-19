@@ -37,35 +37,8 @@
         "dependedBy": []
       },
       {
-        "id": "intel.xdk.notification",
-        "selectedState": "Excluded",
-        "version": "?",
-        "data": {},
-        "paramvals": {},
-        "dependsOn": [],
-        "dependedBy": []
-      },
-      {
-        "id": "intel.xdk.device",
-        "selectedState": "Excluded",
-        "version": "?",
-        "data": {},
-        "paramvals": {},
-        "dependsOn": [],
-        "dependedBy": []
-      },
-      {
         "id": "com.cranberrygame.phonegap.plugin.ad.admob",
         "selectedState": "Included",
-        "version": "?",
-        "data": {},
-        "paramvals": {},
-        "dependsOn": [],
-        "dependedBy": []
-      },
-      {
-        "id": "intel.xdk.file",
-        "selectedState": "Excluded",
         "version": "?",
         "data": {},
         "paramvals": {},
@@ -89,7 +62,6 @@
         "selectedState": "Included",
         "data": {},
         "paramvals": {},
-        "checksum": "ae85da67aca33474ca304ca1b41f756bff87bd687882dbd65a081a1128c62f85",
         "dependsOn": [],
         "dependedBy": [
           "org.apache.cordova.media"
