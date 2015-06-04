@@ -1,4 +1,5 @@
 /* jshint strict: true, -W097 */
+/* jshint browser: true */
 /* global admobAd, alert */
 
 /*jslint devel:true  */
